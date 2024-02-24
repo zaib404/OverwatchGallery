@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <title>Overwatch Highlights Videos</title>
+    </head>
+    
+    <body>
+        <!-- Page wrapper so everything is wrapped up -->
+        <section id="pagewrapper">
+        
+        <!-- Start of header for Nav. Header nav is there as a wrapper for the nav since
+              to layout and align the nav below. So the background wouldnt show-->
+        <header class="header-nav">
+            <section class="container-nav">
+                <!-- Navigation put into a table -->
+                <table class="table-nav">
+                    <tr>
+                        <td width="150px">
+                            <!-- Overwatch logo links to homepage  -->
+                            <a href="index.html" id="logo"><img id="logo" src="../shared_assets/Images/Header/OW_logo.png"></a>
+                        </td>
+                        <td>
+                            <!-- Navigation buttons in a table and lists  -->
+                            <nav class="top-nav">
+                                <ul class="ul-nav">
+                                    <li class="dropdown">
+                                        <!-- When mouse hovers over "Heroes or More" a drop down will appear and display the table
+                                             Which is currently hidden unless the mouse hovers over it. And display additional content. -->
+                                        <a class="dropbtn">Heroes</a>
+                                        <section class="dropdown-content">
+                                            <table>
+                                                <!-- TR is row so the TH is the heading for each column -->
+                                                <tr>
+                                                    <th>
+                                                        <h3>Offence Heroes</h3>
+                                                    </th>
+                                                    <th>
+                                                        <h3>Defense Heroes</h3>
+                                                    </th>
+                                                    <th>
+                                                        <h3>Tank Heroes</h3>
+                                                    </th>
+                                                    <th>
+                                                        <h3>Support Heroes</h3>
+                                                    </th>
+                                                </tr>
+                                                
+                                                <!-- Tr is the row so each name is being put into each row. "Genji in Offence", "Bastion in Defense ect.." -->
+                                                <tr>
+                                                    <td><a href="videos.html">Genji</a></td>
+                                                    <td><a href="videos.html">Bastion</a></td>
+                                                    <td><a href="videos.html">Dva</a></td>
+                                                    <td><a href="videos.html">Ana</a></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td><a href="videos.html">McCree</a></td>
+                                                    <td><a href="videos.html">Hanzo</a></td>
+                                                    <td><a href="videos.html">Reinhardt</a></td>
+                                                    <td><a href="videos.html">Lucio</a></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td><a href="videos.html">Reaper</a></td>
+                                                    <td><a href="videos.html">Mei</a></td>
+                                                    <td><a href="videos.html">Winston</a></td>
+                                                    <td><a href="videos.html">Symmetra</a></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td><a href="videos.html">Soldier: 76</a></td>
+                                                    <td><a href="videos.html">Torbjorn</a></td>
+                                                    <td><a href="videos.html">Zarya</a></td>
+                                                    <td><a href="videos.html">Zenyatta</a></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td><a href="videos.html">Sombra</a></td>
+                                                    <td><a href="videos.html">Widowmaker</a></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td><a href="videos.html">Tracer</a></td>
+                                                </tr>
+                                            </table>
+                                        </section>
+                                    </li>
+                                    
+                                    <!-- Hover over "More" then the dropdown content appears href taking you to pages. -->
+                                    <li class="dropdown">
+                                        <a class="dropbtn">More</a>
+                                        <section class="dropdown-content">
+                                            <a href="about.html">About Us</a>
+                                            <a href="faq.html">FAQ</a>
+                                        </section>
+                                    </li>
+                                    
+                                    <!-- List on its own no dropdown takes you to login/signup page. Css is used to layout nearly everything -->
+                                    <li class="dropdown" id="menuLogin">
+                                        <a href="signup.html" class="dropbtn">Login/Sign Up</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </td>
+                    </tr>
+                </table>
+                <!-- End of table for nav -->
+            </section>
+            </header>
+            <!-- End of header for nav -->
+            
+            <section id="banner-container">
+            
+                <!-- Banner container. Img is a banner within css the height and width is specified -->
+            
+                <img class="img-banner" src="../shared_assets/Images/Banner/genji.png" />
+            
+            </section>
+            
+            <!-- This section is for the main content -->
+            <section id="main">
+                
+                <section class="hero-text">
+                    <h2 class="hero-title">Genji</h2>
+                    <p class="hero-quote">"Even if I sacrifice my body, I will never sacrifice my honor."</p>
+                </section>
+                
+                <!-- This section is for the videos to be displayed in a row but videos act as thumbnail -->
+                <section class="video-row">
+                    <section class="row">
+                        <!-- Column is using the p tag to display a title for thumbnail -->
+                        <section class="column">
+                            <p id="video-title">Dva Game on Emote</p>
+                            <!-- Thumbnail when clicked open modal box -->
+                            <video src="../shared_assets/Videos/Dva_Gameon_Emote.mp4" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"></video>
+                        </section>
+                        
+                        <section class="column">
+                            <p id="video-title">Dva lol wut o.O</p>
+                            <video src="../shared_assets/Videos/Dva_lol.mp4" onclick="openModal();currentSlide(2)" class="hover-shadow cursor"></video>
+                        </section>
+                        
+                        <section class="column">
+                            <p id="video-title">Dva weird POTG</p>
+                            <video src="../shared_assets/Videos/Dva_POTG_weird.mp4" onclick="openModal();currentSlide(3)" class="hover-shadow cursor"></video>
+                        </section>
+                
+                        <section class="column">
+                            <p id="video-title">Mercy your powered up xD</p>
+                            <video src="../shared_assets/Videos/Junkrat_mercy_your_powered_up.mp4" onclick="openModal();currentSlide(4);" class="hover-shadow cursor"></video>
+                        </section>
+                
+                        <section class="column">
+                            <p id="video-title">Junkrat Play Of The Match</p>
+                            <video src="../shared_assets/Videos/Junkrat_POTM.mp4" onclick="openModal();currentSlide(5);" class="hover-shadow cursor"></video>
+                        </section>
+                
+                        <section class="column">
+                            <p id="video-title">Junkrat X Widowmaker chill</p>
+                            <video src="../shared_assets/Videos/Junkrat_X_widowmaker_ship.mp4" onclick="openModal();currentSlide(6);" class="hover-shadow cursor"></video>
+                        </section>
+                        
+                        <section class="column">
+                            <p id="video-title">I helped my teammate die!</p>
+                            <video src="../shared_assets/Videos/Lucio_accidently_killing_my_own_team_mate.mp4" onclick="openModal();currentSlide(7);" class="hover-shadow cursor"></video>
+                        </section>
+                        
+                        <section class="column">
+                            <p id="video-title">Amazing save by Lucio</p>
+                            <video src="../shared_assets/Videos/Lucio_ball_save.mp4" onclick="openModal();currentSlide(8);" class="hover-shadow cursor"></video>
+                        </section>
+                
+                        <section class="column">
+                            <p id="video-title">It's High Noot!</p>
+                            <video src="../shared_assets/Videos/McCree_highnoon.mp4" onclick="openModal();currentSlide(9);" class="hover-shadow cursor"></video>
+                        </section>
+                
+                        <section class="column">
+                            <p id="video-title">It's Raining Justice Hallelujah!</p>
+                            <video src="../shared_assets/Videos/Pharah_Justice.mp4" onclick="openModal();currentSlide(10);" class="hover-shadow cursor"></video>
+                        </section>
+                    </section>
+                </section>
+                
+                <!-- This section is for displaying the video in the modal -->
+                <section id="myModal" class="modal">
+                    <!-- Span closes videos when clicked -->
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <!-- This section is for the modal content -->
+                    <section class="modal-content">
+                        <!-- This is displaying what video they are on out of how many there are. -->
+                        <section class="mySlides">
+                            <section class="numbertext">1 / 10</section>
+                            <!-- Open modal with the video ready to be played -->
+                            <video src="../shared_assets/Videos/Dva_Gameon_Emote.mp4" controls onclick="openModal();currentSlide(1)" class="hover-shadow cursor"></video>
+                        </section>
+                        
+                        <section class="mySlides">
+                            <section class="numbertext">2 / 10</section>
+                            <video src="../shared_assets/Videos/Dva_lol.mp4" controls onclick="openModal();currentSlide(2)" class="hover-shadow cursor"></video>
+                        </section>
+                    
+                        <section class="mySlides">
+                            <section class="numbertext">3 / 10</section>
+                            <video src="../shared_assets/Videos/Dva_POTG_weird.mp4" controls onclick="openModal();currentSlide(3)" class="hover-shadow cursor"></video>
+                        </section>
+                    
+                        <section class="mySlides">
+                            <section class="numbertext">4 / 10</section>
+                            <video src="../shared_assets/Videos/Junkrat_mercy_your_powered_up.mp4" controls onclick="openModal();currentSlide(4)" class="hover-shadow cursor"></video>
+                        </section>
+                    
+                        <section class="mySlides">
+                            <section class="numbertext">5 / 10</section>
+                            <video src="../shared_assets/Videos/Junkrat_POTM.mp4" controls onclick="openModal();currentSlide(5)" class="hover-shadow cursor"></video>
+                        </section>
+                    
+                        <section class="mySlides">
+                            <section class="numbertext">6 / 10</section>
+                            <video src="../shared_assets/Videos/Junkrat_X_widowmaker_ship.mp4" controls onclick="openModal();currentSlide(6)" class="hover-shadow cursor"></video>
+                        </section>
+                    
+                        <section class="mySlides">
+                            <section class="numbertext">7 / 10</section>
+                            <video src="../shared_assets/Videos/Lucio_accidently_killing_my_own_team_mate.mp4" controls onclick="openModal();currentSlide(7)" class="hover-shadow cursor"></video>
+                        </section>
+                    
+                        <section class="mySlides">
+                            <section class="numbertext">8 / 10</section>
+                            <video src="../shared_assets/Videos/Lucio_ball_save.mp4" controls onclick="openModal();currentSlide(8)" class="hover-shadow cursor"></video>
+                        </section>
+                    
+                        <section class="mySlides">
+                            <section class="numbertext">9 / 10</section>
+                            <video src="../shared_assets/Videos/McCree_highnoon.mp4" controls onclick="openModal();currentSlide(9)" class="hover-shadow cursor"></video>
+                        </section>
+                    
+                        <section class="mySlides">
+                            <section class="numbertext">10 / 10</section>
+                            <video src="../shared_assets/Videos/Pharah_Justice.mp4" controls onclick="openModal();currentSlide(10)" class="hover-shadow cursor"></video>
+                        </section>
+                        
+                        <!-- These are the buttons for on the modal to be able to go to the next / previous page -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </section>
+                </section>
+                
+                <script src="Javascript/modal.js" type="text/javascript"></script>
+            </section>
+            
+            <footer>
+                <p>© Overwatch Highlights 2017</p>
+                <p id="footer-link">
+                    <a id="footer-link" href="index.html">Home</a> | 
+                    <a id="footer-link" href="faq.html">FAQ</a> | 
+                    <a id="footer-link" href="signup.html">Login/Sign up</a> | 
+                    <a id="footer-link" href="about.html">About us</a> | 
+                    <a id="footer-link" href="videos.html">Videos</a>
+                </p>
+            </footer>
+        </section>
+    </body>
+</html>
+
+<!-- 
+
+    Reference:
+
+    Blizzard Entertainment (2015) Overwatch circle logo. Available at: https://commons.wikimedia.org/wiki/File:Overwatch_circle_logo.svg (Accessed: 31 December 2016).
+    
+    Blizzard Entertainment (2016) Overwatch™ - blizzard support. Available at: https://eu.battle.net/support/en/games/overwatch (Accessed: 24 December 2016).
+    
+    Blizzard Entertainment (2016) Overwatch. Available at: https://playoverwatch.com/en-us/heroes/ (Accessed: 28 December 2016).
+
+    bytecodeminer (2016) Overwatch computer wallpapers, desktop backgrounds. Available at: https://wall.alphacoders.com/big.php?i=695787 (Accessed: 5 January 2017).
+
+    Game 4 U (2017) Overwatch origins edition. Available at: http://game4u.co.za/shop/overwatch/ (Accessed: 5 January 2017).
+    
+    Jin Kim, Y. (2016) Overwatch computer wallpapers, desktop backgrounds. Available at: https://wall.alphacoders.com/big.php?i=704120 (Accessed: 5 January 2017).
+
+    krisedge (2016) Overwatch computer wallpapers, desktop backgrounds | 1920x1080 | ID: 666091. Available at: https://wall.alphacoders.com/big.php?i=666091 (Accessed: 5 January 2017).
+
+    Raylan13 (2016) Genji spray - icon. Available at: http://overwatch.wikia.com/wiki/File:Genji_Spray_-_Icon.png (Accessed: 31 December 2016).
+    
+    Raylan13 (2016) Hanzo spray - icon. Available at: http://overwatch.wikia.com/wiki/File:Hanzo_Spray_-_Icon.png (Accessed: 31 December 2016).
+    
+    Reddit (2016) Request can somebody get me a transparent image. Available at: https://www.reddit.com/r/Overwatch/comments/4g2fn7/request_can_somebody_get_me_a_transparent_image/ (Accessed: 31 December 2016).
+
+    uberchain (2017) But First...! Available at: http://uberchain.deviantart.com/art/But-First-577221246 (Accessed: 5 January 2017).
+
+    Javascript reference ▼
+    W3schools.com (2016) How to create a Lightbox. Available at: http://www.w3schools.com/howto/howto_js_lightbox.asp (Accessed: 4 January 2017).
+    
+-->

@@ -1,0 +1,655 @@
+body 
+{
+	height:100%;
+    margin: 0;
+    background:#28354f;
+}
+
+#pagewrapper
+{
+    min-height: 100%;
+    position: absolute;
+	width:100%;
+}
+
+#main
+{
+    margin-bottom: auto;
+    padding-bottom: 1%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer, #footer-signup
+{
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    bottom: 0;
+    background-color: #141619;
+    text-align: center;
+}
+
+#footer-signup
+{
+    top: 0;
+    margin-top: 5.7em;
+}
+
+#footer-link
+{
+    color: #fff;
+}
+
+/* Start Of Top Navigation */
+.header-nav
+{
+	background-color:#141619;
+}
+
+.table-nav
+{
+    width: 100%;
+}
+
+.container-nav
+{
+    font-family: sans-serif, impact;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#logo
+{
+    display: inline-block;
+    width:139px;
+    height:41px;
+}
+
+#logo:hover
+{
+    background-color: #f7931e;
+    cursor: pointer;
+}
+
+.top-nav
+{
+    display: inline-block;
+    width: 100%;
+}
+
+.ul-nav
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #141619;
+}
+
+li
+{
+    float: left;
+}
+
+li a, .dropbtn
+{
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+li.dropdown
+{
+    display: inline-block;
+}
+
+.dropdown:hover
+{
+    background-color: #f7931e;
+}
+
+.dropdown-content
+{
+    color:#fff;
+    display: none;
+    position: absolute;
+    background-color: #28354f;
+    min-width: 160px;
+    border: #d0d0dc 1px solid;
+    z-index: 100;
+}
+
+.dropdown-content a
+{
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    text-align:center;
+}
+
+.dropdown-content a:hover
+{
+    background-color: #f7931e
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+#menuLogin
+{
+    margin-left: 42%;
+    float: right;
+}
+
+h3
+{
+    padding: 2%;
+    text-align: center;
+}
+
+/* End Of Top Navigation */
+
+/* Start of Banner */
+
+#banner-container
+{
+    opacity: 5%;
+    max-width: 1920px;;
+    max-height: 350px;
+}
+
+.img-banner
+{
+    border: 5px solid;
+    width: 100%;
+    height: 300px;
+}
+
+/* End of Banner */
+
+/* Start of Heading Text Container Style */
+.title-text-container
+{
+    font-family: Big Noodle Too, impact, sans-serif;
+    font-style: italic;
+    color: #d0d0dc;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.heading-title
+{
+    font-size: 3em;
+}
+
+.caption-text
+{
+    font-size: 2em;
+}
+/* End of Heading Text Container Style */
+
+.nav-class-list
+{
+    display: table-row;
+}
+
+/* Start of Hero List Index Page */
+.heroes-container
+{
+    text-align: center;
+    width: auto;
+    background-color: #182030;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 1em;
+    color: #d0d0dc;
+}
+
+.hero-portait-title
+{
+    width: 100%;
+    font-family: Big Noodle Too,impact, sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    color: #d0d0dc;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: .2em solid #f7931e;
+    border-top: .2em solid #f7931e;
+    opacity: .7;
+}
+
+.hero-portrait
+{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    border: 5px solid #28354f;
+    display:inline-block;
+}
+
+.portrait
+{
+    width: 100%;
+    height: 100%;
+}
+
+.hero-portrait > .text-container
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 3em;
+    background: #3d485f;
+}
+
+.hero-portrait .portrait-title
+{
+    font-size: 150%;
+    font-family: Big Noodle Too,impact, sans-serif;
+    font-style: italic;
+    color: #d0d0dc;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+}
+
+a.hero-portrait:hover, .text-container:hover
+{
+    background-color: #f7931e;
+}
+
+/* End of Hero List Index Page */
+
+/* Start of About / FAQ Page */
+
+.about-title-text-container
+{
+    font-family: Big Noodle Too, impact, sans-serif;
+    font-style: italic;
+    color: #d0d0dc;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #333;
+    font-size: 2.5em;
+    letter-spacing: .04em;
+}
+
+.header-text
+{
+    color: #d0d0dc;
+    opacity: .8;
+    border-bottom: #818181 10px solid;
+    border-top: #818181 10px solid;
+}
+
+.about-row
+{
+    width: auto;
+    background-color: #182030;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #d0d0dc;
+}
+
+#about-logo-right
+{
+    float: right;
+    width: 128px;
+    height: 128px;
+}
+
+#about-logo-left
+{
+    float: left;
+    margin-right: 1%;
+    margin-top: 0;
+    margin-left: 1%;
+    width: 128px;
+    height: 128px;
+    
+}
+
+#about-h2, #answer
+{
+    font-family: sans-serif;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 2em;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#text-link, #tweet
+{
+    color: #f7931e;
+}
+
+#text-link:hover, #tweet:hover
+{
+    color: #a9a9a9;
+}
+
+#answer
+{
+    font-size: 1.5em;
+    padding-bottom: 1%;
+    border-bottom: double .3em;
+}
+
+#form-td
+{
+    font-size: 20px;
+    font-weight:lighter;
+    letter-spacing: 1px;
+}
+
+/* End of About / FAQ Page */
+
+/* Start of Signup Page */
+
+#login-wrapper
+{
+    float: left;
+    display:table-cell;
+    background-color: #182030;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #d0d0dc;
+    width: 48%;
+}
+
+#login-h2
+{
+    font-family: sans-serif;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size: 2em;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 1.5%;
+    margin-bottom: 0%;
+}
+
+#login
+{
+    text-align: center;
+    width: auto;
+    margin-left: 5%;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 5%;
+    padding: 0;
+}
+
+#label-signup
+{
+    font-size: 2.5em;
+    letter-spacing: .02em;
+    font-weight:lighter;
+}
+
+#input-signup, #input-signup-password, #input-confirm-password
+{
+    height: 2.5em;
+}
+
+#input-signup-password
+{
+    margin-left: 8px;
+}
+
+#input-confirm-password
+{
+    margin-left: 2.2em;
+}
+
+#button
+{
+    font-size: 1.2em;
+    margin-left: 15em;
+    border-radius: 0.5em;
+    cursor:pointer;
+}
+
+.forgot
+{
+    margin-left: 6em;
+    color: #f7931e;
+}
+
+.forgot:hover
+{
+    color: #000;
+}
+
+/* End of Signup Page */
+
+/* Start of Videos Page */
+
+.hero-text
+{
+    font-family: Big Noodle Too, impact, sans-serif;
+    font-style: italic;
+    letter-spacing: .02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #d0d0dc;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.hero-title, .hero-quote
+{
+    opacity: .8;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5em;;
+}
+
+.hero-quote
+{
+    font-size: 1.5em;
+}
+
+.video-row
+{
+    width: auto;
+    background-color: #182030;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #d0d0dc;
+    padding: 8px;
+}
+
+#video-title
+{
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    font-weight:lighter;
+    font-size: 1.2em;
+}
+
+/*
+    Reference:
+
+    CCS reference for lightbox ▼
+    W3schools.com (2016) How to create a Lightbox. Available at: http://www.w3schools.com/howto/howto_js_lightbox.asp (Accessed: 4 January 2017).
+
+*/
+
+*
+{
+    box-sizing: border-box;
+}
+
+.row > .column 
+{
+    padding: 8px;
+}
+
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column 
+{
+    float: left;
+    width: 25%;
+}
+
+/* The Modal (background) */
+.modal 
+{
+    display: none;
+    position:absolute;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Modal Content */
+.modal-content 
+{
+    position: relative;
+    background-color:transparent;
+    margin: auto;
+    padding: 0;
+    width:90%;
+    max-width: 1200px;
+    height: auto;
+}
+
+/* The Close Button */
+.close
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus
+{
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides
+{
+    display: none;
+}
+
+.cursor
+{
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next 
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -90px;
+    margin-left: -70px;
+    margin-right: -70px;
+    color: #f7931e;
+    font-weight: bold;
+    font-size: 4.5em;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover 
+{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext
+{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+video
+{
+    margin-bottom: -4px;
+}
+
+.hover-shadow
+{
+    transition: 0.3s;
+    width: 100%;
+}
+
+.hover-shadow:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* End of Videos Page */
+
+
+
+
+
+

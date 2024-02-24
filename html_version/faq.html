@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <title>FAQ Overwatch Highlights</title>
+    </head>
+    
+    <body>
+        <!-- Page wrapper so everything is wrapped up -->
+        <section id="pagewrapper">
+        
+        <!-- Start of header for Nav. Header nav is there as a wrapper for the nav since
+              to layout and align the nav below. So the background wouldnt show-->
+        <header class="header-nav">
+            <section class="container-nav">
+                <!-- Navigation put into a table -->
+                <table class="table-nav">
+                    <tr>
+                        <td width="150px">
+                            <!-- Overwatch logo links to homepage  -->
+                            <a href="index.html" id="logo"><img id="logo" src="../shared_assets/Images/Header/OW_logo.png"></a>
+                        </td>
+                        <td>
+                            <!-- Navigation buttons in a table and lists  -->
+                            <nav class="top-nav">
+                                <ul class="ul-nav">
+                                    <li class="dropdown">
+                                        <!-- When mouse hovers over "Heroes or More" a drop down will appear and display the table
+                                             Which is currently hidden unless the mouse hovers over it. And display additional content. -->
+                                        <a class="dropbtn">Heroes</a>
+                                        <section class="dropdown-content">
+                                            <table>
+                                                <!-- TR is row so the TH is the heading for each column -->
+                                                <tr>
+                                                    <th>
+                                                        <h3>Offence Heroes</h3>
+                                                    </th>
+                                                    <th>
+                                                        <h3>Defense Heroes</h3>
+                                                    </th>
+                                                    <th>
+                                                        <h3>Tank Heroes</h3>
+                                                    </th>
+                                                    <th>
+                                                        <h3>Support Heroes</h3>
+                                                    </th>
+                                                </tr>
+                                                
+                                                <!-- Tr is the row so each name is being put into each row. "Genji in Offence", "Bastion in Defense ect.." -->
+                                                <tr>
+                                                    <td><a href="videos.html">Genji</a></td>
+                                                    <td><a href="videos.html">Bastion</a></td>
+                                                    <td><a href="videos.html">Dva</a></td>
+                                                    <td><a href="videos.html">Ana</a></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td><a href="videos.html">McCree</a></td>
+                                                    <td><a href="videos.html">Hanzo</a></td>
+                                                    <td><a href="videos.html">Reinhardt</a></td>
+                                                    <td><a href="videos.html">Lucio</a></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td><a href="videos.html">Reaper</a></td>
+                                                    <td><a href="videos.html">Mei</a></td>
+                                                    <td><a href="videos.html">Winston</a></td>
+                                                    <td><a href="videos.html">Symmetra</a></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td><a href="videos.html">Soldier: 76</a></td>
+                                                    <td><a href="videos.html">Torbjorn</a></td>
+                                                    <td><a href="videos.html">Zarya</a></td>
+                                                    <td><a href="videos.html">Zenyatta</a></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td><a href="videos.html">Sombra</a></td>
+                                                    <td><a href="videos.html">Widowmaker</a></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td><a href="videos.html">Tracer</a></td>
+                                                </tr>
+                                            </table>
+                                        </section>
+                                    </li>
+                                    
+                                    <!-- Hover over "More" then the dropdown content appears href taking you to pages. -->
+                                    <li class="dropdown">
+                                        <a class="dropbtn">More</a>
+                                        <section class="dropdown-content">
+                                            <a href="about.html">About Us</a>
+                                            <a href="faq.html">FAQ</a>
+                                        </section>
+                                    </li>
+                                    
+                                    <!-- List on its own no dropdown takes you to login/signup page. Css is used to layout nearly everything -->
+                                    <li class="dropdown" id="menuLogin">
+                                        <a href="signup.html" class="dropbtn">Login/Sign Up</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </td>
+                    </tr>
+                </table>
+                <!-- End of table for nav -->
+            </section>
+            </header>
+            <!-- End of header for nav -->
+        
+        <section id="banner-container">
+            
+            <!-- Banner container. Img is a banner within css the height and width is specified -->
+            
+            <img class="img-banner" src="../shared_assets/Images/Banner/mercy.png" />
+            
+        </section>
+        
+            <!-- This section is for the main content -->
+            <section id="main">
+            
+                <!-- This is the header wrapped in a container which contains its font family and ect.. h1 is a heading -->
+                <header class="about-title-text-container">
+                    <h1 class="header-text">FAQ (Frequently Asked Questions)</h1>
+                </header>
+                
+                <!-- Class name used from about page, was needed since in the css it had what style i needed just used again.  -->
+                <section class="about-row">
+                <br>
+                    <!-- Another heading  -->
+                    <h2 id="about-h2">
+                    Question: I found a bug or I have a cool idea for the site. Where can I contact you?
+                    </h2><br>
+                    <!-- Paragraph with id answer and has a link which redirects you to about us page -->
+                    <p id="answer">Answer: You can contact me via the
+                        <a href="about.html" id="tweet">about us</a> section. I welcome all suggestions and bug reports. You can help make the site a better place for everyone.</p><br>
+                    
+                    <h2 id="about-h2">
+                    Question: Can I change my username?
+                    </h2><br>
+                    <p id="answer">Answer: No you can't, I'm afriad. We don't allow changing of your username. We do this to prevent abuse.</p><br>
+                    
+                    <h2 id="about-h2">
+                    Question: I can't find the video / image I uploaded?
+                    </h2><br>
+                    <p id="answer">Answer: It can take a while for it to be uploaded to the server. If after a while you can't see it then contact us and we'll have a look into it.</p><br>
+                
+                <br><br>
+                </section>
+            </section>
+            <!-- This section is where the main content ends -->
+            
+            <!-- This section is for the footer content -->
+            <footer>
+                <!-- Text -->
+                <p>© Overwatch Highlights 2017</p>
+                <!-- Links taking you to their pages -->
+                <p id="footer-link">
+                    <a id="footer-link" href="index.html">Home</a> | 
+                    <a id="footer-link" href="faq.html">FAQ</a> | 
+                    <a id="footer-link" href="signup.html">Login/Sign up</a> | 
+                    <a id="footer-link" href="about.html">About us</a> | 
+                    <a id="footer-link" href="videos.html">Videos</a>
+                </p>
+            </footer>
+            <!-- This section is where the footer content ends -->
+        </section>
+        <!-- This section is where the page wrapper ends -->
+    </body>
+</html>
+
+<!-- 
+
+    Reference:
+
+    Blizzard Entertainment (2015) Overwatch circle logo. Available at: https://commons.wikimedia.org/wiki/File:Overwatch_circle_logo.svg (Accessed: 31 December 2016).
+    
+    Blizzard Entertainment (2016) Overwatch™ - blizzard support. Available at: https://eu.battle.net/support/en/games/overwatch (Accessed: 24 December 2016).
+    
+    Blizzard Entertainment (2016) Overwatch. Available at: https://playoverwatch.com/en-us/heroes/ (Accessed: 28 December 2016).
+
+    bytecodeminer (2016) Overwatch computer wallpapers, desktop backgrounds. Available at: https://wall.alphacoders.com/big.php?i=695787 (Accessed: 5 January 2017).
+
+    Game 4 U (2017) Overwatch origins edition. Available at: http://game4u.co.za/shop/overwatch/ (Accessed: 5 January 2017).
+    
+    Jin Kim, Y. (2016) Overwatch computer wallpapers, desktop backgrounds. Available at: https://wall.alphacoders.com/big.php?i=704120 (Accessed: 5 January 2017).
+
+    krisedge (2016) Overwatch computer wallpapers, desktop backgrounds | 1920x1080 | ID: 666091. Available at: https://wall.alphacoders.com/big.php?i=666091 (Accessed: 5 January 2017).
+
+    Raylan13 (2016) Genji spray - icon. Available at: http://overwatch.wikia.com/wiki/File:Genji_Spray_-_Icon.png (Accessed: 31 December 2016).
+    
+    Raylan13 (2016) Hanzo spray - icon. Available at: http://overwatch.wikia.com/wiki/File:Hanzo_Spray_-_Icon.png (Accessed: 31 December 2016).
+    
+    Reddit (2016) Request can somebody get me a transparent image. Available at: https://www.reddit.com/r/Overwatch/comments/4g2fn7/request_can_somebody_get_me_a_transparent_image/ (Accessed: 31 December 2016).
+
+    uberchain (2017) But First...! Available at: http://uberchain.deviantart.com/art/But-First-577221246 (Accessed: 5 January 2017).
+
+    Javascript reference ▼
+    W3schools.com (2016) How to create a Lightbox. Available at: http://www.w3schools.com/howto/howto_js_lightbox.asp (Accessed: 4 January 2017).
+    
+-->
